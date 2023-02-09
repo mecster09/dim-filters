@@ -1,5 +1,5 @@
 /* mec's godroll special weapon [tag:keep] */
-is:weapon -is:exotic is:special (
+is:weapon -is:exotic is:special -is.maxpower (
     ((is:tracerifle
         (/* Perk Group 1 */ perkname:"surplus"
         )
