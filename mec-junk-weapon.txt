@@ -1,0 +1,2 @@
+/* mec's junk weapon [tag:junk] */
+is:weapon -is:locked -is:inloadout -is:exotic -is:masterwork -is:maxpower -tag:favorite -tag:keep -deepsight:incomplete -deepsight:pattern
