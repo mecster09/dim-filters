@@ -18,9 +18,9 @@ is:weapon -is:exotic is:special -is.maxpower (
         (/* Perk Group 3 */ perkname:"chill clip" or perkname:"demolitionist" or  perkname:"golden tricorn" or perkname:"reservoir burst"
         )
     ) or (is:shotgun
-        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"auto-loading holster"
+        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"auto-loading holster" or perkname:"feeding frenzy"
         )
-        (/* Perk Group 2 */ perkname:"one-two punch" or perkname:"surrounded" or perkname:"vorpal weapon" or perkname:"trench barrel"
+        (/* Perk Group 2 */ perkname:"one-two punch" or perkname:"surrounded" or perkname:"vorpal weapon" or perkname:"trench barrel" or perkname:"demolitionist"
         )
     ) or (is:glaive
         (/* Perk Group 1 */ perkname:"impulse amplifier" or perkname:"demolitionist"
@@ -28,9 +28,9 @@ is:weapon -is:exotic is:special -is.maxpower (
         (/* Perk Group 2 */ perkname:"adrenaline junkie" or perkname:"vorpal weapon"
         )
     ) or (is:grenadelauncher is:energy
-        (/* Perk Group 1 */ perkname:"quickdraw" or perkname:"feeding frenzy"
+        (/* Perk Group 1 */ perkname:"quickdraw" or perkname:"feeding frenzy" or perkname:"threat detector"
         )
-        (/* Perk Group 2 */ perkname:"swashbuckler"
+        (/* Perk Group 2 */ perkname:"swashbuckler" or perkname:"demolitionist"
         )
 	)
 )
