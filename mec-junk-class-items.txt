@@ -1,0 +1,2 @@
+/* mec's junk class items [tag:junk] */
+is:hunter is:classitem light:<1580 is:unlocked -is:inloadout -is:masterwork energycapacity:<=5 -light:>=1580
