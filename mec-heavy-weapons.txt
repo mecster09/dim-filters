@@ -11,7 +11,7 @@ is:weapon -is:exotic is:heavy -is:maxpower (
         (/* Perk Group 2 */ perkname:"frenzy" or perkname:"rampage" or perkname:"vorpal weapon" or perkname:"swashbuckler"
         )
     ) or (is:machinegun
-        (/* Perk Group 1 */ perkname:"field prep" or perkname:"perpetual motion"
+        (/* Perk Group 1 */ perkname:"field prep" or perkname:"perpetual motion" or perkname:"forth time's the charm"
         )
         (/* Perk Group 2 */ perkname:"rampage" or perkname:"firing line" or perkname:"vorpal weapon" or perkname:"headstone" or perkname:"one for all"
         )
