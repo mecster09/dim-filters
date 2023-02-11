@@ -1,2 +1,6 @@
-/* mec's junk armor [tag:junk] */
-is:hunter is:armor -is:locked -is:inloadout -is:classitem -is:exotic -is:masterwork -basestat:any:>=20 -basestat:total:>=60 -tag:keep -is:maxpower
+/* mec's junk armor [tag:junk] */ 
+is:hunter is:armor -is:locked -is:inloadout -is:exotic -is:masterwork -tag:keep -is:maxpower 
+(
+  (-is:classitem -basestat:any:>=20 -basestat:total:>=60 -stat:custom:>=48) 
+  or ( is:classitem energycapacity:<=5)
+)
