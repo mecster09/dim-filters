@@ -1,6 +1,6 @@
 # dim-filters
 
-##Sequence for running queries
+## Sequence for running queries
 
 ### All of the below queries keep
 - Crafted
