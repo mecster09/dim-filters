@@ -1,0 +1,93 @@
+/* mec's godroll weapons [tag:keep] */
+(is:weapon -is:exotic is:primary -is.maxpower (
+    ((is:scoutrifle or is:autorifle or is:pulserifle or is:handcannon or is:sidearm
+        )
+        (/* Perk Group 1 */ perkname:"rapid hit" or perkname:"outlaw" or perkname:"triple tap" or perkname:"rangefinder" or perkname:"ambitious assassin" or perkname:"feeding frenzy" or perkname:"forth time's the charm" or perkname:"zen moment" or perkname:"demolitionist" or perkname:"full auto trigger"
+        ) 
+        (/* Perk Group 2 */ perkname:"incandescent" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"dragonfly" or  perkname:"firefly" or perkname:"explosive payload" or perkname:"frenzy" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"headstone" or perkname:"voltshot"
+        )
+    ) or (is:smg
+        (/* Perk Group 1 */ perkname:"ambitious assassin" or perkname:"perpetual motion" or perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow"
+        )
+        (/* Perk Group 2 */ perkname:"adrenaline junkie" or  perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"swashbuckler" or  perkname:"vorpal weapon"
+        ) 
+    ) or (is:bow
+        (/* Perk Group 1 */ perkname:"archer's tempo" or perkname:"surplus" or perkname:"well-rounded"
+        )
+        (/* Perk Group 2 */ perkname:"snapshot sights" or perkname:"wellspring"
+        )
+    )   
+)
+) or (
+is:weapon -is:exotic is:special -is.maxpower (
+    ((is:tracerifle
+        (/* Perk Group 1 */ perkname:"surplus"
+        )
+        (/* Perk Group 2 */ perkname:"killing tally" or perkname:"wellspring" or perkname:"swashbuckler" or perkname:"replusor brace"
+        )
+    ) or (is:sniperrifle
+        (/* Perk Group 1 */ perkname:"outlaw" or perkname:"moving target" or perkname:"snapshot sights" or perkname:"forth's time the charm"
+        )
+        (/* Perk Group 2 */ perkname:"quickdraw" or perkname:"rampage" or  perkname:"kill clip"
+        )
+    ) or (is:fusionrifle
+         (/* Perk Group 1 */ perkname:"accelerated coils" 
+        )
+        (/* Perk Group 2 */ perkname:"subsistence" or perkname:"reconstruction" or perkname:"firmly planted"
+        )
+        (/* Perk Group 3 */ perkname:"chill clip" or perkname:"demolitionist" or  perkname:"golden tricorn" or perkname:"reservoir burst"
+        )
+    ) or (is:shotgun
+        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"auto-loading holster" or perkname:"feeding frenzy"
+        )
+        (/* Perk Group 2 */ perkname:"one-two punch" or perkname:"surrounded" or perkname:"vorpal weapon" or perkname:"trench barrel" or perkname:"demolitionist"
+        )
+    ) or (is:glaive
+        (/* Perk Group 1 */ perkname:"impulse amplifier" or perkname:"demolitionist"
+        )
+        (/* Perk Group 2 */ perkname:"adrenaline junkie" or perkname:"vorpal weapon"
+        )
+    ) or (is:grenadelauncher is:energy
+        (/* Perk Group 1 */ perkname:"quickdraw" or perkname:"feeding frenzy" or perkname:"threat detector"
+        )
+        (/* Perk Group 2 */ perkname:"swashbuckler" or perkname:"demolitionist"
+        )
+	)
+)
+) or (
+is:weapon -is:exotic is:special -is.maxpower (
+    ((is:tracerifle
+        (/* Perk Group 1 */ perkname:"surplus"
+        )
+        (/* Perk Group 2 */ perkname:"killing tally" or perkname:"wellspring" or perkname:"swashbuckler" or perkname:"replusor brace"
+        )
+    ) or (is:sniperrifle
+        (/* Perk Group 1 */ perkname:"outlaw" or perkname:"moving target" or perkname:"snapshot sights" or perkname:"forth's time the charm"
+        )
+        (/* Perk Group 2 */ perkname:"quickdraw" or perkname:"rampage" or  perkname:"kill clip"
+        )
+    ) or (is:fusionrifle
+         (/* Perk Group 1 */ perkname:"accelerated coils" 
+        )
+        (/* Perk Group 2 */ perkname:"subsistence" or perkname:"reconstruction" or perkname:"firmly planted"
+        )
+        (/* Perk Group 3 */ perkname:"chill clip" or perkname:"demolitionist" or  perkname:"golden tricorn" or perkname:"reservoir burst"
+        )
+    ) or (is:shotgun
+        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"auto-loading holster" or perkname:"feeding frenzy"
+        )
+        (/* Perk Group 2 */ perkname:"one-two punch" or perkname:"surrounded" or perkname:"vorpal weapon" or perkname:"trench barrel" or perkname:"demolitionist"
+        )
+    ) or (is:glaive
+        (/* Perk Group 1 */ perkname:"impulse amplifier" or perkname:"demolitionist"
+        )
+        (/* Perk Group 2 */ perkname:"adrenaline junkie" or perkname:"vorpal weapon"
+        )
+    ) or (is:grenadelauncher is:energy
+        (/* Perk Group 1 */ perkname:"quickdraw" or perkname:"feeding frenzy" or perkname:"threat detector"
+        )
+        (/* Perk Group 2 */ perkname:"swashbuckler" or perkname:"demolitionist"
+        )
+	)
+)
+)
