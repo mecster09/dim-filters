@@ -1,2 +1,0 @@
-/* mec's junk class items [tag:junk] */
-is:hunter is:classitem is:unlocked -is:inloadout -tag:keep -is:masterwork energycapacity:<=5 -is:maxpower
