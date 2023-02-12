@@ -23,5 +23,6 @@
 - [mec-junk-weapon.txt](https://raw.githubusercontent.com/mecster09/dim-filters/main/mec-junk-weapon.txt)
 
 ### Note
-- Armor is just for Hunter (as I only play one character!
-- This does not take into consideration personal roll preference and only uses DIM wishlist
+- Armor is just for Hunter (as I only play one character!)
+- This is my roll preference and also utilises the DIM wishlist.
+
