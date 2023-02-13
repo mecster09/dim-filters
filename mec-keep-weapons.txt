@@ -1,5 +1,5 @@
 /* mec's godroll weapons [tag:keep] */
-(is:weapon -is:exotic -is:maxpower -is:locked)
+(is:weapon -is:exotic)
 (is:primary (
     ((is:scoutrifle or is:autorifle or is:pulserifle or is:handcannon or is:sidearm)
         (/* Perk Group 1 */ perkname:"rapid hit" or perkname:"outlaw" or perkname:"triple tap" or perkname:"rangefinder" or perkname:"ambitious assassin" or perkname:"feeding frenzy" or perkname:"forth time's the charm" or perkname:"zen moment" or perkname:"demolitionist" or perkname:"full auto trigger"
