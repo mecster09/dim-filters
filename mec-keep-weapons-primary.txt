@@ -7,9 +7,9 @@ is:weapon -is:exotic is:primary -is.maxpower (
         (/* Perk Group 2 */ perkname:"incandescent" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"dragonfly" or  perkname:"firefly" or perkname:"explosive payload" or perkname:"frenzy" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"headstone" or perkname:"voltshot"
         )
     ) or (is:smg
-        (/* Perk Group 1 */ perkname:"ambitious assassin" or perkname:"perpetual motion" or perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow"
+        (/* Perk Group 1 */ perkname:"ambitious assassin" or perkname:"perpetual motion" or perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow" or perkname:"stats for all"
         )
-        (/* Perk Group 2 */ perkname:"adrenaline junkie" or  perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"swashbuckler" or  perkname:"vorpal weapon"
+        (/* Perk Group 2 */ perkname:"adrenaline junkie" or  perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"swashbuckler" or  perkname:"vorpal weapon" or perkname:"frenzy" or perkname:"one for all"
         ) 
     ) or (is:bow
         (/* Perk Group 1 */ perkname:"archer's tempo" or perkname:"surplus" or perkname:"well-rounded"
