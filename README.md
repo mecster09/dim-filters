@@ -9,6 +9,7 @@
 - Max power items
 - High stat roll armor (using DIMs stat:custom setting)
 - Class items with 6 or more energy power
+- One of each weapon
 
 [tag-keep] all the below
 - [mec-keep-armor-hunter.txt](https://raw.githubusercontent.com/mecster09/dim-filters/main/mec-keep-armor-hunter.txt)
@@ -20,6 +21,9 @@
 
 [tag:junk] all the below
 - [mec-junk-armor-hunter.txt](https://raw.githubusercontent.com/mecster09/dim-filters/main/mec-junk-armor-hunter.txt)
+- [mec-junk-weapon-dupes.txt](https://raw.githubusercontent.com/mecster09/dim-filters/main/mec-junk-weapon-dupes.txt)
+
+If you want to remove all junk weapons including non-dupes then run this filter also
 - [mec-junk-weapon.txt](https://raw.githubusercontent.com/mecster09/dim-filters/main/mec-junk-weapon.txt)
 
 ### Note
