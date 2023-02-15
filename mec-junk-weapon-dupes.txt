@@ -1,0 +1,5 @@
+/* mec's junk weapons dupes [tag:junk] */ 
+(is:weapon (-is:crafted -deepsight:pattern -is:maxpower -tag:favorite -tag:keep -is:locked -is:inloadout -is:masterwork)
+(is:wishlistdupe -is:wishlist)
+or (is:dupelower -is:wishlist)
+)
