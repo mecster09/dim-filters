@@ -3,7 +3,7 @@ is:weapon -is:exotic is:special -is.maxpower (
     ((is:tracerifle
         (/* Perk Group 1 */ perkname:"surplus"
         )
-        (/* Perk Group 2 */ perkname:"killing tally" or perkname:"wellspring" or perkname:"swashbuckler" or perkname:"replusor brace"
+        (/* Perk Group 2 */ perkname:"killing tally" or perkname:"wellspring" or perkname:"swashbuckler" or perkname:"replusor brace" or perkname:"dragonfly" or perkname:"voltshot"
         )
     ) or (is:sniperrifle
         (/* Perk Group 1 */ perkname:"outlaw" or perkname:"moving target" or perkname:"snapshot sights" or perkname:"forth's time the charm"
