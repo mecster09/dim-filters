@@ -9,7 +9,7 @@
     ) or (is:smg
         (/* Perk Group 1 */ perkname:"ambitious assassin" or perkname:"perpetual motion" or perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow" or perkname:"stats for all"
         )
-        (/* Perk Group 2 */ perkname:"adrenaline junkie" or  perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"swashbuckler" or  perkname:"vorpal weapon" or perkname:"frenzy" or perkname:"one for all"
+        (/* Perk Group 2 */ perkname:"adrenaline junkie" or  perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"swashbuckler" or  perkname:"vorpal weapon" or perkname:"frenzy" or perkname:"one for all" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
         ) 
     ) or (is:bow
         (/* Perk Group 1 */ perkname:"archer's tempo" or perkname:"surplus" or perkname:"well-rounded"
@@ -22,7 +22,7 @@
     (is:tracerifle
         (/* Perk Group 1 */ perkname:"surplus"
         )
-        (/* Perk Group 2 */ perkname:"killing tally" or perkname:"wellspring" or perkname:"swashbuckler" or perkname:"replusor brace" or perkname:"dragonfly" or perkname:"voltshot" or perkname:"incandescent"
+        (/* Perk Group 2 */ perkname:"killing tally" or perkname:"wellspring" or perkname:"swashbuckler" or perkname:"repulsor brace" or perkname:"dragonfly" or perkname:"voltshot" or perkname:"incandescent"
         )
     ) or (is:sniperrifle
         (/* Perk Group 1 */ perkname:"outlaw" or perkname:"moving target" or perkname:"snapshot sights" or perkname:"forth's time the charm"
