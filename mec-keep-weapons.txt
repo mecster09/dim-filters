@@ -75,9 +75,9 @@
         ( /* Perk Group 2 */ perkname:"whirlwind blade"
         )
     ) or (is:linearfusionrifle
-        (/* Perk Group 1 */ perkname:"clown cartridge" or perkname:"triple tap"
+        (/* Perk Group 1 */ perkname:"clown cartridge" or perkname:"triple tap" or perkname:"outlaw"
         )
-        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"rampage" or perkname:"vorpal weapon"
+        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"rampage" or perkname:"vorpal weapon" or perkname:"multikill clip" or perkname:"kill clip" or perkname:"golden tricorn" or perkname:"vorpal weapon"
         )
 	)
 )
