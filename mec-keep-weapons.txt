@@ -1,73 +1,73 @@
 /* mec's godroll weapons [tag:keep] */
 (is:weapon -is:exotic)
 (is:primary (
-    ((is:scoutrifle or is:autorifle or is:pulserifle or is:handcannon or is:sidearm)
-        (/* Perk Group 1 */ perkname:"rapid hit" or perkname:"outlaw" or perkname:"triple tap" or perkname:"rangefinder" or perkname:"ambitious assassin" or perkname:"feeding frenzy" or perkname:"forth time's the charm" or perkname:"zen moment" or perkname:"demolitionist" or perkname:"full auto trigger"
+    ((is:scoutrifle or is:pulserifle or is:autorifle or is:handcannon or is:sidearm)
+        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"rapid hit" or perkname:"outlaw" or perkname:"feeding frenzy" or perkname:"forth time's the charm" or perkname:"triple tap" or perkname:"ambitious assassin" or perkname:"demolitionist"
         ) 
-        (/* Perk Group 2 */ perkname:"incandescent" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"dragonfly" or  perkname:"firefly" or perkname:"explosive payload" or perkname:"frenzy" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"headstone" or perkname:"voltshot"
+        (/* Perk Group 2 */ perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"dragonfly" or  perkname:"firefly" or perkname:"explosive payload" or perkname:"headstone" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent"
         )
     ) or (is:smg
-        (/* Perk Group 1 */ perkname:"ambitious assassin" or perkname:"perpetual motion" or perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow" or perkname:"stats for all" or perkname:"feeding frenzy"
+        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow" or perkname:"stats for all" or perkname:"feeding frenzy"
         )
-        (/* Perk Group 2 */ perkname:"adrenaline junkie" or  perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"swashbuckler" or  perkname:"vorpal weapon" or perkname:"frenzy" or perkname:"one for all" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
+        (/* Perk Group 2 */ perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"frenzy" or perkname:"one for all" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
         ) 
     ) or (is:bow
         (/* Perk Group 1 */ perkname:"archer's tempo" or perkname:"surplus" or perkname:"well-rounded"
         )
-        (/* Perk Group 2 */ perkname:"snapshot sights" or perkname:"wellspring"
+        (/* Perk Group 2 */ perkname:"wellspring" or perkname:"dragonfly" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
         )
     )   
 )
 ) or (is:special (
     (is:tracerifle
-        (/* Perk Group 1 */ perkname:"surplus"
+        (/* Perk Group 1 */ perkname:"lead from gold" or perkname:"subsistence" or perkname:"adaptive munitions" or perkname:"stats for all"
         )
-        (/* Perk Group 2 */ perkname:"killing tally" or perkname:"wellspring" or perkname:"swashbuckler" or perkname:"repulsor brace" or perkname:"dragonfly" or perkname:"voltshot" or perkname:"incandescent"
+        (/* Perk Group 2 */ perkname:"one for all" or perkname:"dragonfly" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent"
         )
     ) or (is:sniperrifle
-        (/* Perk Group 1 */ perkname:"outlaw" or perkname:"moving target" or perkname:"snapshot sights" or perkname:"forth's time the charm"
+        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"outlaw" or perkname:"overflow" or perkname:"lead from gold"
         )
-        (/* Perk Group 2 */ perkname:"quickdraw" or perkname:"rampage" or  perkname:"kill clip"
+        (/* Perk Group 2 */ perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"vorpal weapon"
         )
     ) or (is:fusionrifle
          (/* Perk Group 1 */ perkname:"accelerated coils" 
         )
-        (/* Perk Group 2 */ perkname:"subsistence" or perkname:"reconstruction" or perkname:"firmly planted"
+        (/* Perk Group 2 */ perkname:"subsistence" or perkname:"reconstruction" or perkname:"lead from gold" or perkname:"feeding frenzy"
         )
-        (/* Perk Group 3 */ perkname:"chill clip" or perkname:"demolitionist" or  perkname:"golden tricorn" or perkname:"reservoir burst"
+        (/* Perk Group 3 */ perkname:"demolitionist" or perkname:"reservoir burst" or perkname:"chill clip" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
         )
     ) or (is:shotgun
-        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"auto-loading holster" or perkname:"feeding frenzy"
+        (/* Perk Group 1 */ perkname:"subsistence" or perkname:"perpetual motion" or perkname:"threat detector"
         )
-        (/* Perk Group 2 */ perkname:"one-two punch" or perkname:"surrounded" or perkname:"vorpal weapon" or perkname:"trench barrel" or perkname:"demolitionist"
+        (/* Perk Group 2 */ perkname:"one-two punch" or perkname:"demolitionist" or perkname:"surrounded" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
         )
     ) or (is:glaive
-        (/* Perk Group 1 */ perkname:"impulse amplifier" or perkname:"demolitionist"
+        (/* Perk Group 1 */ perkname:"overflow" or perkname:"demolitionist" or perkname:"lead from gold"
         )
-        (/* Perk Group 2 */ perkname:"adrenaline junkie" or perkname:"vorpal weapon"
+        (/* Perk Group 2 */ perkname:"close to melee" or perkname:"frenzy" or perkname:"adaptive munitions" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
         )
     ) or (is:grenadelauncher is:special
-        (/* Perk Group 1 */ perkname:"quickdraw" or perkname:"feeding frenzy" or perkname:"threat detector"
+        (/* Perk Group 1 */ perkname:"stats for all" or perkname:"demolitionist"
         )
-        (/* Perk Group 2 */ perkname:"swashbuckler" or perkname:"demolitionist"
+        (/* Perk Group 2 */ perkname:"one for all" or perkname:"chain reaction"
         )
 	)
 )
 ) or (is:heavy (
     (is:rocketlauncher
-        (/* Perk Group 1 */ perkname:"tracking module" or perkname:"stats for all" or perkname:"quickdraw"
-        )
-        (/* Perk Group 2 */ perkname:"chain reaction" or perkname:"chill clip" or perkname:"lasting impression" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"cluster bomb" or perkname:"snapshot sights"
+        (/* Perk Group 1 */ perkname:"tracking module" or perkname:"stats for all" or perkname:"field prep"
+		)
+        (/* Perk Group 2 */ perkname:"chain reaction" or perkname:"chill clip" or perkname:"lasting impression" or perkname:"explosive light" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"cluster bomb"
         )
     ) or (is:grenadelauncher is:heavy
-        (/* Perk Group 1 */ perkname:"demolitionist" or perkname:"clown cartridge"
+        (/* Perk Group 1 */ perkname:"stats for all" or perkname:"demolitionist" or perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw"
         )
-        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"rampage" or perkname:"vorpal weapon" or perkname:"swashbuckler"
+        (/* Perk Group 2 */ perkname:"one for all" or perkname:"chain reaction" or perkname:"frenzy" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" 
         )
     ) or (is:machinegun
         (/* Perk Group 1 */ perkname:"field prep" or perkname:"perpetual motion" or perkname:"fourth time's the charm"
         )
-        (/* Perk Group 2 */ perkname:"rampage" or perkname:"firing line" or perkname:"vorpal weapon" or perkname:"headstone" or perkname:"one for all"
+        (/* Perk Group 2 */ perkname:"rampage" or perkname:"firing line" or perkname:"target lock" or perkname:"vorpal weapon" or perkname:"headstone"
         )
     ) or (is:sword
          ( /* Perk Group 1 */ perkname:"tireless blade" or perkname:"relentless strikes"
@@ -75,9 +75,9 @@
         ( /* Perk Group 2 */ perkname:"whirlwind blade"
         )
     ) or (is:linearfusionrifle
-        (/* Perk Group 1 */ perkname:"clown cartridge" or perkname:"triple tap" or perkname:"outlaw"
+        (/* Perk Group 1 */ perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw"
         )
-        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"rampage" or perkname:"vorpal weapon" or perkname:"multikill clip" or perkname:"kill clip" or perkname:"golden tricorn" or perkname:"vorpal weapon"
+        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"firing line" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" 
         )
 	)
 )
