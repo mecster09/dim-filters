@@ -1,19 +1,19 @@
 /* mec's godroll heavy weapon [tag:keep] */
-is:weapon -is:exotic is:heavy -is:maxpower (
-    ((is:rocketlauncher
-        (/* Perk Group 1 */ perkname:"tracking module" or perkname:"stats for all" or perkname:"quickdraw"
-        )
-        (/* Perk Group 2 */ perkname:"chain reaction" or perkname:"chill clip" or perkname:"lasting impression" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"cluster bomb" or perkname:"snapshot sights"
+is:weapon -is:exotic is:heavy (
+    (is:rocketlauncher
+        (/* Perk Group 1 */ perkname:"tracking module" or perkname:"stats for all" or perkname:"field prep"
+		)
+        (/* Perk Group 2 */ perkname:"chain reaction" or perkname:"chill clip" or perkname:"lasting impression" or perkname:"explosive light" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"cluster bomb"
         )
     ) or (is:grenadelauncher is:heavy
-        (/* Perk Group 1 */ perkname:"demolitionist" or perkname:"clown cartridge"
+        (/* Perk Group 1 */ perkname:"stats for all" or perkname:"demolitionist" or perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw"
         )
-        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"rampage" or perkname:"vorpal weapon" or perkname:"swashbuckler"
+        (/* Perk Group 2 */ perkname:"one for all" or perkname:"chain reaction" or perkname:"frenzy" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" 
         )
     ) or (is:machinegun
         (/* Perk Group 1 */ perkname:"field prep" or perkname:"perpetual motion" or perkname:"fourth time's the charm"
         )
-        (/* Perk Group 2 */ perkname:"rampage" or perkname:"firing line" or perkname:"vorpal weapon" or perkname:"headstone" or perkname:"one for all"
+        (/* Perk Group 2 */ perkname:"rampage" or perkname:"firing line" or perkname:"target lock" or perkname:"vorpal weapon" or perkname:"headstone"
         )
     ) or (is:sword
          ( /* Perk Group 1 */ perkname:"tireless blade" or perkname:"relentless strikes"
@@ -21,9 +21,9 @@ is:weapon -is:exotic is:heavy -is:maxpower (
         ( /* Perk Group 2 */ perkname:"whirlwind blade"
         )
     ) or (is:linearfusionrifle
-        (/* Perk Group 1 */ perkname:"clown cartridge" or perkname:"triple tap"
+        (/* Perk Group 1 */ perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw"
         )
-        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"rampage" or perkname:"vorpal weapon"
+        (/* Perk Group 2 */ perkname:"frenzy" or perkname:"firing line" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" 
         )
 	)
 )
