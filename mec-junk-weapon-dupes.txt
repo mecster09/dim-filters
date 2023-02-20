@@ -1,2 +1,2 @@
 /* mec's junk weapons dupes [tag:junk] */ 
-is:weapon -is:crafted -deepsight:pattern -tag:favorite -tag:keep -is:locked -is:inloadout -is:masterwork is:dupelower
+is:weapon -is:crafted -deepsight:pattern -tag:favorite -tag:keep -is:locked -is:inloadout -is:masterwork -is:exotic is:dupelower
