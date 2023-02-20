@@ -22,7 +22,7 @@
     (is:tracerifle
         (/* Perk Group 1 */ perkname:"lead from gold" or perkname:"subsistence" or perkname:"adaptive munitions" or perkname:"stats for all"
         )
-        (/* Perk Group 2 */ perkname:"one for all" or perkname:"dragonfly" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent"
+        (/* Perk Group 2 */ perkname:"one for all" or perkname:"dragonfly" or perkname:"killing tally" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent"
         )
     ) or (is:sniperrifle
         (/* Perk Group 1 */ perkname:"subsistence" or perkname:"outlaw" or perkname:"overflow" or perkname:"lead from gold"
