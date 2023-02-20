@@ -1,15 +1,16 @@
 # dim-filters
 
-## Sequence for running queries
-
 ### All of the below queries keep
 - Crafted
 - Deepsight pattern weapons
 - Exotics
-- Max power items
 - High stat roll armor (using DIMs stat:custom setting)
 - Class items with 6 or more energy power
 - One of each weapon
+
+IMPORTANT 
+- Run a filter to find -is:maxpower and mark off 1 of each category
+- Run the [tag-keep] filters BEFORE the [tag-junk]
 
 [tag-keep] all the below
 - [mec-keep-armor-hunter.txt](https://raw.githubusercontent.com/mecster09/dim-filters/main/mec-keep-armor-hunter.txt)
@@ -26,7 +27,6 @@
 If you want to remove all junk weapons including non-dupes then run this filter also
 - [mec-junk-weapon.txt](https://raw.githubusercontent.com/mecster09/dim-filters/main/mec-junk-weapon.txt)
 
-### Note
 - Armor is just for Hunter (as I only play one character!)
 - This is my roll preference and also utilises the DIM wishlist.
 
