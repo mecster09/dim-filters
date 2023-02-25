@@ -1,5 +1,5 @@
 /* mec's godroll heavy weapon [tag:keep] */
-is:weapon -is:exotic is:heavy (
+is:weapon -is:exotic is:heavy tag:none (
     (is:rocketlauncher
         (/* Perk Group 1 */ perkname:"tracking module" or perkname:"stats for all" or perkname:"field prep"
 		)
