@@ -1,1 +1,1 @@
-/* mec godroll armor [tag:keep] */ is:maxpowerloadout or (is:hunter stat:custom:>=48 tag:none)
+/* mec godroll armor [tag:keep] */ (is:maxpowerloadout tag:none) or (is:hunter stat:custom:>=48 tag:none)
