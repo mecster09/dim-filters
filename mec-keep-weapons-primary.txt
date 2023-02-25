@@ -1,5 +1,5 @@
 /* mec's godroll primary weapon [tag:keep] */
-is:weapon -is:exotic is:primary (
+is:weapon -is:exotic is:primary tag:none (
     ((is:scoutrifle or is:pulserifle or is:autorifle or is:handcannon or is:sidearm)
         (/* Perk Group 1 */ perkname:"subsistence" or perkname:"rapid hit" or perkname:"outlaw" or perkname:"feeding frenzy" or perkname:"fourth time's the charm" or perkname:"triple tap" or perkname:"ambitious assassin" or perkname:"demolitionist"
         ) 
