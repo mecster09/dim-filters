@@ -3,7 +3,7 @@ is:weapon -is:exotic is:primary tag:none (
     ((is:scoutrifle or is:pulserifle or is:autorifle or is:handcannon or is:sidearm)
         (/* Perk Group 1 */ perkname:"subsistence" or perkname:"rapid hit" or perkname:"outlaw" or perkname:"feeding frenzy" or perkname:"fourth time's the charm" or perkname:"triple tap" or perkname:"ambitious assassin" or perkname:"demolitionist"
         ) 
-        (/* Perk Group 2 */ perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"dragonfly" or  perkname:"firefly" or perkname:"explosive payload" or perkname:"headstone" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent"
+        (/* Perk Group 2 */ perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"frenzy" or perkname:"dragonfly" or  perkname:"firefly" or perkname:"explosive payload" or perkname:"headstone" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent"
         )
     ) or (is:smg
         (/* Perk Group 1 */ perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow" or perkname:"stats for all" or perkname:"feeding frenzy" or perkname:"unrelenting"
