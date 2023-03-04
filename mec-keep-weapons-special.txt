@@ -3,19 +3,19 @@ is:weapon -is:exotic is:special tag:none (
     (is:tracerifle
         (/* Perk Group 1 */ perkname:"lead from gold" or perkname:"subsistence" or perkname:"adaptive munitions" or perkname:"stats for all"
         )
-        (/* Perk Group 2 */ perkname:"one for all" or perkname:"golden tricorn" or perkname:"dragonfly" or perkname:"killing tally" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent"
+        (/* Perk Group 2 */ perkname:"one for all" or perkname:"golden tricorn" or perkname:"dragonfly" or perkname:"killing tally" or perkname:"repulsor brace" or perkname:"voltshot" or perkname:"incandescent" or perkname:"hatchling"
         )
     ) or (is:sniperrifle
         (/* Perk Group 1 */ perkname:"subsistence" or perkname:"outlaw" or perkname:"overflow" or perkname:"lead from gold"
         )
-        (/* Perk Group 2 */ perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"vorpal weapon"
+        (/* Perk Group 2 */ perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"vorpal weapon" or perkname:"hatchling"
         )
     ) or (is:fusionrifle
          (/* Perk Group 1 */ perkname:"accelerated coils" 
         )
         (/* Perk Group 2 */ perkname:"subsistence" or perkname:"reconstruction" or perkname:"lead from gold" or perkname:"feeding frenzy"
         )
-        (/* Perk Group 3 */ perkname:"demolitionist" or perkname:"reservoir burst" or perkname:"chill clip" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
+        (/* Perk Group 3 */ perkname:"demolitionist" or perkname:"reservoir burst" or perkname:"chill clip" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" or perkname:"hatchling"
         )
     ) or (is:shotgun
         (/* Perk Group 1 */ perkname:"subsistence" or perkname:"perpetual motion" or perkname:"threat detector"
@@ -25,12 +25,12 @@ is:weapon -is:exotic is:special tag:none (
     ) or (is:glaive
         (/* Perk Group 1 */ perkname:"overflow" or perkname:"demolitionist" or perkname:"lead from gold"
         )
-        (/* Perk Group 2 */ perkname:"close to melee" or perkname:"frenzy" or perkname:"adaptive munitions" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" 
+        (/* Perk Group 2 */ perkname:"close to melee" or perkname:"frenzy" or perkname:"adaptive munitions" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" or perkname:"hatchling" 
         )
     ) or (is:grenadelauncher is:special
         (/* Perk Group 1 */ perkname:"stats for all" or perkname:"demolitionist"
         )
-        (/* Perk Group 2 */ perkname:"one for all" or perkname:"chain reaction"
+        (/* Perk Group 2 */ perkname:"one for all" or perkname:"chain reaction" or perkname:"hatchling"
         )
 	)
 )
