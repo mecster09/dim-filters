@@ -1,17 +1,17 @@
 /* mec's godroll heavy weapon [tag:keep] */
 is:weapon -is:exotic is:heavy tag:none (
     (is:rocketlauncher
-        (/* Perk Group 1 */ perkname:"tracking module" or perkname:"stats for all" or perkname:"field prep"
+        (/* Perk Group 1 */ perkname:"tracking module" or perkname:"stats for all" or perkname:"field prep" or perkname:"keep away"
 		)
         (/* Perk Group 2 */ perkname:"chain reaction" or perkname:"chill clip" or perkname:"lasting impression" or perkname:"explosive light" or perkname:"golden tricorn" or perkname:"vorpal weapon" or perkname:"cluster bomb" or perkname:"explosive light"
         )
     ) or (is:grenadelauncher is:heavy
-        (/* Perk Group 1 */ perkname:"stats for all" or perkname:"demolitionist" or perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw"
+        (/* Perk Group 1 */ perkname:"stats for all" or perkname:"demolitionist" or perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw" or perkname:"keep away"
         )
         (/* Perk Group 2 */ perkname:"one for all" or perkname:"chain reaction" or perkname:"frenzy" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" or perkname:"explosive light"
         )
     ) or (is:machinegun
-        (/* Perk Group 1 */ perkname:"field prep" or perkname:"perpetual motion" or perkname:"fourth time's the charm"
+        (/* Perk Group 1 */ perkname:"field prep" or perkname:"perpetual motion" or perkname:"fourth time's the charm" or perkname:"keep away"
         )
         (/* Perk Group 2 */ perkname:"rampage" or perkname:"firing line" or perkname:"target lock" or perkname:"vorpal weapon" or perkname:"headstone" or perkname:"hatchling"
         )
@@ -21,7 +21,7 @@ is:weapon -is:exotic is:heavy tag:none (
         ( /* Perk Group 2 */ perkname:"whirlwind blade" or perkname:"assassin's blade"
         )
     ) or (is:linearfusionrifle
-        (/* Perk Group 1 */ perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw"
+        (/* Perk Group 1 */ perkname:"field prep" or perkname:"clown cartridge" or perkname:"outlaw" or perkname:"keep away"
         )
         (/* Perk Group 2 */ perkname:"frenzy" or perkname:"firing line" or perkname:"rampage" or perkname:"kill clip" or perkname:"multikill clip" 
         )
