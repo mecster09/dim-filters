@@ -8,7 +8,7 @@ is:weapon -is:exotic is:primary tag:none (
     ) or (is:smg
         (/* Perk Group 1 */ perkname:"subsistence" or perkname:"killing wind" or perkname:"overflow" or perkname:"stats for all" or perkname:"feeding frenzy" or perkname:"unrelenting"
         )
-        (/* Perk Group 2 */ perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"frenzy" or perkname:"one for all" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" or perkname:"hatchling" or perkname:"demolitionist" or perkname:"destabilizing rounds"
+        (/* Perk Group 2 */ perkname:"kill clip" or perkname:"rampage" or  perkname:"demolitionist" or perkname:"frenzy" or perkname:"one for all" or perkname:"incandescent" or perkname:"voltshot" or perkname:"repulsor brace" or perkname:"headstone" or perkname:"hatchling" or perkname:"destabilizing rounds"
         ) 
     ) or (is:bow
         (/* Perk Group 1 */ perkname:"archer's tempo" or perkname:"surplus" or perkname:"well-rounded"
