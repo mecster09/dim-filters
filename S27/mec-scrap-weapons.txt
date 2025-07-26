@@ -1,15 +1,25 @@
 /* mec's weapon clean up */
 -is:wishlist is:dupelower is:legendary is:weapon 
--is:masterwork -is:crafted -is:enhancedperk
+-is:masterwork -is:crafted -is:enhancedperk -is:adept
 -exactperk:"rocket-assisted frame" -exactperk:"wave frame" -exactperk:"area denial frame"
+-exactperk:"kinetic tremors" 
 -exactperk:"repulsor brace" 
+-exactperk:"destabilizing rounds"
 -exactperk:"voltshot" 
+-exactperk:"jolting feedback" 
+-exactperk:"rolling storm" 
 -exactperk:"incandescent" 
+-exactperk:"burning ambition" 
 -exactperk:"slice" 
 -exactperk:"hatchling" 
--exactperk:"destabilizing rounds"
 -exactperk:"headstone"
 -exactperk:"chill clip" 
--exactperk:"jolting feedback" 
 -exactperk:"dragonfly"
+-exactperk:"firefly"
+-exactperk:"explosive payload"
+-exactperk:"demoralize"
+-exactperk:"binary orbit"
+-exactperk:"tracking module"
 -exactperk:"target lock" 
+-exactperk:"onslaught" 
+-exactperk:"attrition orbs" 
