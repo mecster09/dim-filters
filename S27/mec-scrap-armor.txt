@@ -1,0 +1,5 @@
+/* mec's armor clean up v1.0.0*/
+is:armor is:unlocked is:legendary 
+-is:inloadout -is:maxpower -is:masterwork 
+-tag:keep -tag:favorite 
+tier:<2
