@@ -1,5 +1,5 @@
-/* mec's weapon clean up v1.0.10*/
-is:legendary is:weapon is:unlocked is:dupe
+/* mec's weapon clean up v1.0.12*/
+is:legendary is:weapon is:unlocked
 -is:wishlist -is:inloadout -is:masterwork -is:crafted -is:adept -is:maxpower -tier:>2 
 -exactperk:"rocket-assisted frame" -exactperk:"wave frame" -exactperk:"area denial frame"
 -exactperk:"kinetic tremors" 
@@ -23,3 +23,5 @@ is:legendary is:weapon is:unlocked is:dupe
 -exactperk:"target lock" 
 -exactperk:"onslaught" 
 -exactperk:"attrition orbs" 
+-exactperk:"one-two punch" 
+-exactperk:"heal clip"
